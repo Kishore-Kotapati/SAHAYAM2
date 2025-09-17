@@ -20,15 +20,10 @@
     {
       "source": "/(.*)",
       "destination": "/build/web/$1"
-    }
-  ],
-  "routes": [
-    {
-      "handle": "filesystem"
     },
     {
-      "src": "/.*",
-      "dest": "/build/web/index.html"
+      "source": "/.*",
+      "destination": "/build/web/index.html"
     }
   ],
   "env": {
