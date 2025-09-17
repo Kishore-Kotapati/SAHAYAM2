@@ -22,7 +22,7 @@
       "destination": "/build/web/$1"
     },
     {
-      "source": "/.*",
+      "source": "/(.*)",
       "destination": "/build/web/index.html"
     }
   ],
