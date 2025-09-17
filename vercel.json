@@ -2,10 +2,10 @@
   "version": 2,
   "functions": {
     "api/index.js": {
-      "runtime": "nodejs18.x"
+      "runtime": "vercel-node@2.9.0"
     },
     "api/socket.js": {
-      "runtime": "nodejs18.x"
+      "runtime": "vercel-node@2.9.0"
     }
   },
   "rewrites": [
@@ -32,4 +32,3 @@
   "cleanUrls": true,
   "trailingSlash": false
 }
-
