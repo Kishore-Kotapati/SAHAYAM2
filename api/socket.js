@@ -5,7 +5,7 @@ let io;
 const activeUsers = new Map();
 const chatRooms = new Map();
 
-export default function handler(req, res) {
+module.exports =(req, res) {
   if (!res.socket.server.io) {
     console.log('🔌 Initializing Socket.IO server...');
     
@@ -195,4 +195,5 @@ export default function handler(req, res) {
   }
 
   res.end();
+
 }
